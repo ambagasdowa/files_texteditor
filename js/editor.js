@@ -465,9 +465,9 @@ var Files_Texteditor = {
 		// Set the theme
 		OC.addScript(
 			'files_texteditor',
-			'core/vendor/ace-builds/src-noconflict/theme-clouds',
+			'core/vendor/ace-builds/src-noconflict/theme-solarized_dark',
 			function () {
-				window.aceEditor.setTheme("ace/theme/clouds");
+				window.aceEditor.setTheme("ace/theme/solarized_dark");
 			}
 		);
 		// Bind the edit event
